@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MW.Feature.FormConditions", "MW.Feature.FormsConditions\MW.Feature.FormConditions.csproj", "{B4F76AA0-CF98-4944-9BB1-5B9893917BED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MW.Feature.FormConditions.Tests", "MW.Feature.FormConditions.Tests\MW.Feature.FormConditions.Tests.csproj", "{94102DE1-F0CF-4B56-AB28-CD649D7B09B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F76AA0-CF98-4944-9BB1-5B9893917BED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F76AA0-CF98-4944-9BB1-5B9893917BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F76AA0-CF98-4944-9BB1-5B9893917BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F76AA0-CF98-4944-9BB1-5B9893917BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94102DE1-F0CF-4B56-AB28-CD649D7B09B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94102DE1-F0CF-4B56-AB28-CD649D7B09B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94102DE1-F0CF-4B56-AB28-CD649D7B09B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94102DE1-F0CF-4B56-AB28-CD649D7B09B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE150539-682C-4B58-AA63-DC2622DCB351}
+	EndGlobalSection
+EndGlobal
