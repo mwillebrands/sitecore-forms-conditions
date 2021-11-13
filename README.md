@@ -22,7 +22,7 @@ The fields that are allowed are:
 If you have any fields that you want to be able to post, edit the _MW.Feature.FormConditions.ModelBinding.config_ file, and add your own fields to the _MW.Feature.FormConditions.AllowedFields_ setting.
 
 ### Disabling functionality
-If you just want to make use of the IFieldConditionsEvaluator and do not require any of the other functionality, just remove the config file named _MW.Feature.FormConditions.ModelBinding.config_.
+If you just want to make use of the IFieldConditionsEvaluator and do not require any of the other functionality, just remove the config file named _MW.Feature.FormConditions.ModelBinding.config_.  
 If you want to disable the limitations for the posted fields, open the config file named _MW.Feature.FormConditions.ModelBinding.config_ and set the setting _named _MW.Feature.FormConditions.ModelBinding.config_._ to _false_.
 
 ### Examples
