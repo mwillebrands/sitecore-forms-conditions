@@ -26,6 +26,9 @@ If you just want to make use of the IFieldConditionsEvaluator and do not require
 
 If you want to disable the limitations for the posted fields, open the config file named _MW.Feature.FormConditions.ModelBinding.config_ and set the setting _named _MW.Feature.FormConditions.ModelBinding.config_._ to _false_.
 
+### Sitecore versions
+I've tested this on 10.1 but it *should* work on Sitecore 9.0 and upwards. You might have to add a Assembly Redirect.
+
 ### Examples
 **Checking the status of a field within a SubmitAction**
 ```c#
