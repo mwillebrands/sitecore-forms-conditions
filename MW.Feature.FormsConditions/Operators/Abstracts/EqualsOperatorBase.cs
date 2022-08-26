@@ -6,6 +6,14 @@ namespace MW.Feature.FormConditions.Operators.Abstracts
     {
         protected override bool IsMatch(object fieldValue, object operatorValue)
         {
+            var leftIsNullOrEmpty = fieldValue == null || (fieldValue is string fieldStringValue) && string.IsNullOrEmpty(fieldStringValue);
+            var rightIsNullOrEmpty = operatorValue == null || (operatorValue is string operatorStringValue && string.IsNullOrEmpty(operatorStringValue));
+
+            if (leftIsNullOrEmpty && rightIsNullOrEmpty)
+            {
+                return true;
+            }
+
             if (fieldValue == null && operatorValue != null)
             {
                 return false;

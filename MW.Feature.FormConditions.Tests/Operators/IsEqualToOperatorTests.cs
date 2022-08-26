@@ -44,5 +44,18 @@ namespace MW.Feature.FormConditions.Tests.Operators
         {
             Assert.IsTrue(_service.IsMatch(new List<object>() { 1 }, "1"));
         }
+
+
+        [TestMethod]
+        public void IsMatchShouldMatchNullWithValueEmptyString()
+        {
+            Assert.IsTrue(_service.IsMatch(new List<object>() { null }, ""));
+        }
+
+        [TestMethod]
+        public void IsMatchShouldMatchNullWithOperatorEmptyString()
+        {
+            Assert.IsTrue(_service.IsMatch(new List<object>() {""}, null));
+        }
     }
 }
